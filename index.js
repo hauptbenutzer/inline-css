@@ -20,6 +20,7 @@ module.exports = function (html, options) {
                 EJS: { start: '<%', end: '%>' },
                 HBS: { start: '{{', end: '}}' }
             },
+            applyAttributesTo: null,
             xmlMode: false,
             decodeEntities: false,
             lowerCaseTags: true,
